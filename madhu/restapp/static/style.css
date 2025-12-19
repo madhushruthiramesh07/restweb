@@ -1,0 +1,81 @@
+body {
+    background-image: url(bg3.png);  
+    background-repeat: no-repeat;  
+    background-size: cover;
+    height: 200px;
+    position: relative;
+}
+.content{
+    position: absolute;
+    top: 200px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    top: 270px;
+    left: -38px;
+    font-weight: bold;
+    font-size: 42px;
+}
+.content{
+    text-shadow: 3px 3px 0 #d94718;
+}
+.container {
+    width: 1540px;
+    height: 140px;
+    background: rgb(249, 232, 211);
+    padding: 1px;
+    margin: 30px auto;             
+    box-shadow: 0px 0px 12px rgba(0,0,0,0.15);
+    text-align: center; 
+    position: relative;
+    bottom: 15px; 
+    border-left: 7px solid rgb(135, 24, 24);             
+}
+.restaurant-name {
+    font-size: 38px;
+    font-weight: bolder;
+    color: rgb(18, 18, 18);                
+    margin-bottom: 20px;
+    font-style: oblique;
+    letter-spacing: 10px;
+    position: absolute;
+    right: 970px;
+    top: 30px;  
+}
+.logo-box {
+    margin-bottom: 50px;
+}
+.logo {
+    width: 125px;                
+    height: auto;
+    position: absolute;
+    left: 30px;
+    bottom: 10px;
+}
+.items 
+{
+    position: absolute;
+    left : 850px;
+    justify-content: space-between;
+    bottom: 45px;
+    gap: 500px;
+    word-spacing: 45px;
+    font-size: 20px;
+    font-display: block;
+    font-weight: 550;
+    font-style: oblique;
+}
+.items a{
+    color : rgb(19, 19, 19);
+    text-decoration: none;
+}
+.items a:hover{
+    color: maroon;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    position: relative;
+    top: 490px;
+    background-color: yellow;
+}
