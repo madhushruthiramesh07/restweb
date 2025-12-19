@@ -606,12 +606,12 @@ footer{
 }
 ```
 ## OUTPUT:
+![alt text](home.png)
+![alt text](admin.png)
+![alt text](menu.png)
+![alt text](contact.png)
 
 
-![alt text](madhu/restapp/static/home.png)
-![alt text](madhu/restapp/static/menu.png)
-![alt text](madhu/restapp/static/admin.png)
-![alt text](madhu/restapp/static/contact.png)
 
 
 ## RESULT:
