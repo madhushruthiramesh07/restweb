@@ -347,7 +347,7 @@ footer{
 }
  ```
 
- 
+
 ```
 admin.html
 
@@ -702,10 +702,11 @@ footer{
 }
 ```
 ## OUTPUT:
-![alt text](home.png)
-![alt text](admin.png)
-![alt text](menu.png)
-![alt text](contact.png)
+
+![alt text](home2.png)
+![alt text](menu2.png)
+![alt text](admin2.png)
+![alt text](contact2.png)
 
 
 
