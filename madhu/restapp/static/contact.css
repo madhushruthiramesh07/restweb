@@ -86,6 +86,28 @@ h3{
     top: 10px;
     padding: 20px;
 }
+.items 
+{
+    position: absolute;
+    left : 950px;
+    justify-content: space-between;
+    bottom: 80px;
+    gap: 500px;
+    word-spacing: 45px;
+    font-size: 20px;
+    font-display: block;
+    font-weight: 550;
+    font-style: oblique;
+}
+.items a{
+    color : rgb(19, 19, 19);
+    text-decoration: none;
+}
+.items a:hover{
+    color: maroon;
+    cursor: pointer;
+}
+
 h4{
     text-align: left;
     font-size: 20px;

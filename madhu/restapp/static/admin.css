@@ -40,14 +40,36 @@ body {
     bottom: 10px;
 }
 .team {
+    display: flex;
     justify-content: center;
+    align-items: flex-start;
     gap: 30px;
-    padding-bottom: 50px;
-    position: relative;
-    top: 70%;   
-    display: grid;
-    grid-template-columns: 23% 23% 23%;
+    padding: 40px;
+    flex-wrap: nowrap;
+    margin-top: 10%;
 }
+.items 
+{
+    position: absolute;
+    left : 900px;
+    justify-content: space-between;
+    bottom: 20px;
+    gap: 500px;
+    word-spacing: 45px;
+    font-size: 20px;
+    font-display: block;
+    font-weight: 550;
+    font-style: oblique;
+}
+.items a{
+    color : rgb(19, 19, 19);
+    text-decoration: none;
+}
+.items a:hover{
+    color: maroon;
+    cursor: pointer;
+}
+
 .card {
     width: 250px;
     background: #fff7e6;
@@ -72,6 +94,6 @@ body {
 footer{
     text-align: center;
     position: relative;
-    top: 25%;
+    top: 105%;
     background-color: yellow;
 }

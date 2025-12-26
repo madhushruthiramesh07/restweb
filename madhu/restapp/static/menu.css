@@ -49,10 +49,43 @@ body {
   grid-template-columns: 23% 23% 23% 23%;
   gap: 20px;
 }
-.food-container{
-    position: relative;
-    top:100px;
+.items 
+{
+    position: absolute;
+    left : 850px;
+    justify-content: space-between;
+    bottom: 45px;
+    gap: 500px;
+    word-spacing: 45px;
+    font-size: 20px;
+    font-display: block;
+    font-weight: 550;
+    font-style: oblique;
 }
+.items a{
+    color : rgb(19, 19, 19);
+    text-decoration: none;
+}
+.items a:hover{
+    color: maroon;
+    cursor: pointer;
+}
+
+.food-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 5%;
+    padding-bottom: 40px;
+
+    flex-wrap: nowrap;    
+    overflow-x: auto;      
+
+    position: relative;
+    top: 100px;
+}
+
 .food-card {
   background: rgb(255 255 255);
   backdrop-filter: blur(6px);
@@ -84,6 +117,6 @@ body {
 footer{
     text-align: center;
     position: relative;
-    top: 42%;
+    top: 150%;
     background-color: yellow;
 }

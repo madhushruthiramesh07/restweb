@@ -1,5 +1,5 @@
 # Ex.06 Restaurant Website
-## Date: 17-12-2025
+## Date: 26-12-2025
 
 ## AIM:
 To develop a static Restaurant website to display the food items and services provided by them.
@@ -145,8 +145,7 @@ footer{
 
  ```
  menu.html
-
- <html>
+<html>
     <head>
      <title>Wok & Flame</title>
     <link href="menu.css" rel="stylesheet">
@@ -158,6 +157,12 @@ footer{
         </div>
 
   <h1 class="menu">~OUR MENU~</h1>
+  <div class="items">
+            <a href="restaurant.htm">HOME</a>
+            <a href="menu.htm"> MENU</a>
+            <a href="admin.htm"> ADMINISTRATION</a>
+            <a href="contact.htm">CONTACT</a>
+        </div>
 
   <div class="food-container">
 
@@ -216,8 +221,8 @@ footer{
 </body>
 </html>
 
+ 
 menu.css
-
 body {
     background-image: url(bg3.png);  
     background-repeat: no-repeat;  
@@ -269,10 +274,43 @@ body {
   grid-template-columns: 23% 23% 23% 23%;
   gap: 20px;
 }
-.food-container{
-    position: relative;
-    top:100px;
+.items 
+{
+    position: absolute;
+    left : 850px;
+    justify-content: space-between;
+    bottom: 45px;
+    gap: 500px;
+    word-spacing: 45px;
+    font-size: 20px;
+    font-display: block;
+    font-weight: 550;
+    font-style: oblique;
 }
+.items a{
+    color : rgb(19, 19, 19);
+    text-decoration: none;
+}
+.items a:hover{
+    color: maroon;
+    cursor: pointer;
+}
+
+.food-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 5%;
+    padding-bottom: 40px;
+
+    flex-wrap: nowrap;    
+    overflow-x: auto;      
+
+    position: relative;
+    top: 100px;
+}
+
 .food-card {
   background: rgb(255 255 255);
   backdrop-filter: blur(6px);
@@ -304,10 +342,12 @@ body {
 footer{
     text-align: center;
     position: relative;
-    top: 42%;
+    top: 150%;
     background-color: yellow;
 }
  ```
+
+ 
 ```
 admin.html
 
@@ -323,6 +363,13 @@ admin.html
         <div class="logo-box">
             <img src="logo.png" class="logo">
         </div>
+          <div class="items">
+            <a href="restaurant.htm">HOME</a>
+            <a href="menu.htm"> MENU</a>
+            <a href="admin.htm"> ADMINISTRATION</a>
+            <a href="contact.htm">CONTACT</a>
+        </div>
+
     <div class="team">
 
         <div class="card">
@@ -412,6 +459,27 @@ body {
     left: 30px;
     bottom: 10px;
 }
+.items 
+{
+    position: absolute;
+    left : 900px;
+    justify-content: space-between;
+    bottom: 20px;
+    gap: 500px;
+    word-spacing: 45px;
+    font-size: 20px;
+    font-display: block;
+    font-weight: 550;
+    font-style: oblique;
+}
+.items a{
+    color : rgb(19, 19, 19);
+    text-decoration: none;
+}
+.items a:hover{
+    color: maroon;
+    cursor: pointer;
+}
 .team {
     justify-content: center;
     gap: 30px;
@@ -467,6 +535,12 @@ contact.html
         </div>
         <div class="reserve">RESERVE A TABLE NOW!</div>
         
+        <div class="items">
+            <a href="restaurant.htm">HOME</a>
+            <a href="menu.htm"> MENU</a>
+            <a href="admin.htm"> ADMINISTRATION</a>
+            <a href="contact.htm">CONTACT</a>
+        </div>
         <div class="contact">
             <div class="call">
                <h1> CONTACT US </h1>
@@ -550,6 +624,28 @@ body {
     position: absolute;
     left: 30px;
 }
+items 
+{
+    position: absolute;
+    left : 950px;
+    justify-content: space-between;
+    bottom: 80px;
+    gap: 500px;
+    word-spacing: 45px;
+    font-size: 20px;
+    font-display: block;
+    font-weight: 550;
+    font-style: oblique;
+}
+.items a{
+    color : rgb(19, 19, 19);
+    text-decoration: none;
+}
+.items a:hover{
+    color: maroon;
+    cursor: pointer;
+}
+
 .reserve{
     font-size: 20px;
     text-align: right;
